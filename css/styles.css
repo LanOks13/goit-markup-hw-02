@@ -1,3 +1,19 @@
-h1 {
-  color: brown;
+/* цвет заголоаков текста color: #212121; */
+/* основной цвет текста color: #757575; */
+/* белый цвет color: #FFFFFF;*/
+/* синий цвет color: #2196F3; */
+/* акцент сolor: rgba(255, 255, 255, 0.6); */
+/* вторичный цвет фона background: #F5F4FA; */
+
+body {
+  background-color: #ffffff;
+  color: color: #757575;
+}
+
+.web {
+  color: #2196F3;
+}
+
+.studio {
+  color: #000000;
 }
