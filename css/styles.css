@@ -10,10 +10,35 @@ body {
   color: color: #757575;
 }
 
-.web {
+.list {
+  list-style: none;
+}
+
+.logo-web {
   color: #2196F3;
 }
 
-.studio {
+.logo-studio {
   color: #000000;
+}
+
+/* Site nav */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196F3;
+}
+
+/* Hero */
+.hero-title {
+  color: #FFFFFF;
+}
+
+/* Section */
+.section-title {
+  color: #212121;
+}
+
+/* Features */
+.features-list .title {
+  color: #bb1f1f;
 }
