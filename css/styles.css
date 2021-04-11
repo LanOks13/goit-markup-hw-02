@@ -1,9 +1,20 @@
 /* цвет заголоаков текста color: #212121; */
 /* основной цвет текста color: #757575; */
 /* белый цвет color: #FFFFFF;*/
-/* синий цвет color: #2196F3; */
+/* акцент синий цвет color: #2196F3; */
 /* акцент сolor: rgba(255, 255, 255, 0.6); */
 /* вторичный цвет фона background: #F5F4FA; */
+
+:root {
+  --primary-title-color: #212121;
+  --secondary-title-color: #FFFFFF;
+  --primary-text-color: color: #757575;
+  --secondary-text-color: color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196F3;
+  --second-background-color: #F5F4FA;
+  
+  --subtitle-color: 
+  }
 
 body {
   background-color: #ffffff;
@@ -30,7 +41,7 @@ body {
 
 /* Hero */
 .hero-title {
-  color: #FFFFFF;
+  color: #d81717;
 }
 
 /* Section */
@@ -38,7 +49,10 @@ body {
   color: #212121;
 }
 
+.title-three {
+  color: #212121;
+}
 /* Features */
-.features-list .title {
-  color: #bb1f1f;
+.features-list .title-three {
+  color: #212121;
 }
