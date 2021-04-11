@@ -12,17 +12,19 @@
   --secondary-text-color: color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196F3;
   --second-background-color: #F5F4FA;
-  
-  --subtitle-color: 
-  }
+    }
 
 body {
   background-color: #ffffff;
-  color: color: #757575;
+  color: #757575;
 }
 
 .list {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .logo-web {
