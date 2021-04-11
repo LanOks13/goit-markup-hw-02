@@ -7,20 +7,33 @@
 
 :root {
   --primary-title-color: #212121;
-  --secondary-title-color: #FFFFFF;
-  --primary-text-color: color: #757575;
-  --secondary-text-color: color: rgba(255, 255, 255, 0.6);
-  --accent-color: #2196F3;
-  --second-background-color: #F5F4FA;
-    }
+  --secondary-title-color: #ffffff;
+  --primary-text-color: #757575;
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --main-background-color: #ffffff;
+  --first-background-color: #2f303a;
+  --second-background-color: #e5e5e5;
+  --third-background-color: #f5f4fa;
+  --logo-color: #000000;
+
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+}
 
 body {
-  background-color: #ffffff;
-  color: #757575;
+  /* background-color: #ffffff;
+  color: var(--main-background-color); */
+
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .list {
   list-style: none;
+  color: var(--primary-text-color);
 }
 
 .link {
@@ -28,33 +41,74 @@ body {
 }
 
 .logo-web {
-  color: #2196F3;
+  color: var(--accent-color);
 }
 
 .logo-studio {
-  color: #000000;
+  color: var(--logo-color);
 }
 
 /* Site nav */
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196F3;
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 
 /* Hero */
+.hero {
+  background-color: var(--first-background-color);
+}
+
 .hero-title {
-  color: #d81717;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-/* Section */
+.button {
+  color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero-title {
+  color: var(--secondary-title-color);
+}
+
+/*  Особенности */
+.features {
+  background-color: var(--second-background-color);
+}
+
+/* Чем мы занимаемся */
+.work {
+  background-color: var(--secondary-text-color);
+}
+
+/* Наша команда */
+.team {
+  background-color: var(--third-background-color);
+}
 .section-title {
-  color: #212121;
+  color: var(--primary-title-color--primary-text-color);
 }
 
-.title-three {
-  color: #212121;
+.section-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
 }
 /* Features */
-.features-list .title-three {
-  color: #212121;
+.about-list .section-subtitle {
+  color: var(--primary-title-color);
 }
