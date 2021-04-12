@@ -66,7 +66,10 @@ body {
 }
 
 .hero-title {
+  font-size: 44px;
+  line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
@@ -76,7 +79,9 @@ body {
   background-color: var(--accent-color);
 }
 
-.section-hidden {
+/* Особенности */
+
+.title-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
@@ -87,11 +92,60 @@ body {
   overflow: hidden;
 }
 
+.list .title {
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+}
+
+.list .text {
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+/* Наша команда */
+
+.section-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+
+.text-center {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
 /* Подвал */
+
 .footer {
   background-color: var(--first-background-color);
 }
 
 .footer .logo-studio {
   color: var(--main-background-color);
+}
+
+.address {
+  font-style: inherit;
 }
