@@ -86,3 +86,12 @@ body {
   width: 1px !important;
   overflow: hidden;
 }
+
+/* Подвал */
+.footer {
+  background-color: var(--first-background-color);
+}
+
+.footer .logo-studio {
+  color: var(--main-background-color);
+}
