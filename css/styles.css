@@ -122,11 +122,9 @@ body {
 }
 
 /* Особенности */
-/* .features {
-  background-color: var(--third-light-bg-color);
-} */
 
-.title2-hidden-h2 {
+.title2-hidden-h2,
+.title1-hidden-h1 {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
@@ -153,10 +151,6 @@ body {
 }
 
 /* Чем мы занимаемся */
-
-/* .section-work {
-  background-color: var(--third-light-bg-color); }
-   */
 
 .title2-h2 {
   font-weight: 700;
@@ -195,28 +189,62 @@ body {
 }
 
 .address {
-  /* font-style: inherit; */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--links-text-color);
+  text-decoration: none;
 }
 
 .address:hover,
 .address:focus {
-  color: var(--text-accent-cl);
+  color: var(--accent-text-color);
 }
 
 .link-footer {
-  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--text-bot-links-cl);
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
   text-decoration: none;
 }
 
 .link-footer:hover,
 .link-footer:focus {
-  columns: var(--secondary-text-color);
+  color: var(--accent-text-color);
+}
+
+.name-work-h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.name-work-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--alt-text-color);
+}
+
+.button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background-color: var(--second-light-bg-color);
+  cursor: pointer;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--accent-text-color);
+  color: var(--links-text-color);
 }
