@@ -17,10 +17,10 @@
 
 body {
   font-family: var(--main-font);
-  font-size: 14px;
-  line-height: 1.71;
+  /* font-size: 14px;
+  line-height: 1.71; */
   letter-spacing: 0.03em;
-  color: var(--alt-text-color);
+  color: var(--main-text-color);
 }
 
 /* Навигация */
@@ -30,35 +30,62 @@ body {
 
 .link-logo {
   font-family: var(--logo-font);
+  font-size: 26px;
+  line-height: 1.19;
+  /* letter-spacing: 0.03em; */
+  text-decoration: none;
 }
 
 .logo-web {
   color: var(--accent-text-color);
 }
 
-.logo-studio {
+.logo-studio1 {
   color: var(--logo-text-color);
+}
+
+.logo-studio2 {
+  color: var(--links-text-color);
 }
 
 .list {
   list-style: none;
 }
 
-.link {
-  text-decoration: none;
+.link-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: inherit;
+  text-decoration: none;
 }
 
-.list-link:hover {
+.link-nav:hover,
+.link-nav:focus {
   color: var(--accent-text-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.list .link-nav.current {
   color: var(--accent-text-color);
 }
 
-.site-nav .link.current {
+.link-header:hover,
+.link-header:focus {
+  color: var(--accent-text-color);
+}
+
+.link-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14;
+  letter-spacing: 0.02em;
+  color: var(--alt-text-color);
+  text-decoration: none;
+}
+
+.link-header:hover,
+.link-header:focus {
   color: var(--accent-text-color);
 }
 
@@ -67,26 +94,39 @@ body {
   background-color: var(--first-dark-bg-color);
 }
 
-.hero-title {
+.hero-title1-h1 {
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--links-text-color);
 }
 
-.button {
-  font-family: inherit;
+.white-space {
+  white-space: nowrap;
+}
+
+.button1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   color: var(--links-text-color);
   background-color: var(--accent-text-color);
+  cursor: pointer;
 }
 
 /* Особенности */
-.section-work {
+/* .features {
   background-color: var(--third-light-bg-color);
-}
+} */
 
-.title-hidden {
+.title2-hidden-h2 {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
@@ -97,37 +137,42 @@ body {
   overflow: hidden;
 }
 
-.list .title {
+.list1-h3 {
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-text-color);
 }
-
-.list .text {
+.text1 {
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--alt-text-color);
 }
 
 /* Чем мы занимаемся */
 
-.section-title {
+/* .section-work {
+  background-color: var(--third-light-bg-color); */
+}
+
+.title2-h2 {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: var(--main-text-color)
 }
 
 /* Наша команда */
-.section-light-bg-color {
+.section-our-team {
   background-color: var(--second-light-bg-color);
 }
 
-.section-subtitle {
+.list2-h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -136,12 +181,11 @@ body {
   color: var(--main-text-color);
 }
 
-.text-center {
+.text2 {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--alt-text-color);
 }
 
@@ -150,14 +194,29 @@ body {
   background-color: var(--first-dark-bg-color);
 }
 
-.footer {
-  background-color: var(--first-background-color);
-}
-
-.footer .logo-studio {
-  color: var(--main-white-bg-color);
-}
-
 .address {
-  font-style: inherit;
+  /* font-style: inherit; */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--links-text-color);
+}
+
+.address:hover,
+.address:focus {
+  color: var(--text-accent-cl);
+}
+
+.link-footer {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-bot-links-cl);
+  text-decoration: none;
+}
+
+.link-footer:hover,
+.link-footer:focus {
+  columns: var(--secondary-text-color);
 }
