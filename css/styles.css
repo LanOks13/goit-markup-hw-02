@@ -32,7 +32,7 @@ body {
   font-family: var(--logo-font);
   font-size: 26px;
   line-height: 1.19;
-  /* letter-spacing: 0.03em; */
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -62,16 +62,13 @@ body {
 }
 
 .link-nav:hover,
-.link-nav:focus {
+.link-nav:focus,
+.link-header:hover,
+.link-header:focus {
   color: var(--accent-text-color);
 }
 
 .list .link-nav.current {
-  color: var(--accent-text-color);
-}
-
-.link-header:hover,
-.link-header:focus {
   color: var(--accent-text-color);
 }
 
@@ -109,6 +106,7 @@ body {
 }
 
 .button1 {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
