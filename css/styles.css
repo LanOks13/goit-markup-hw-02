@@ -37,10 +37,6 @@ body {
   color: var(--accent-text-color);
 }
 
-/* .logo-web {
-  color: var(--accent-text-color);
-} */
-
 .logo-header {
   color: var(--logo-text-color);
 }
