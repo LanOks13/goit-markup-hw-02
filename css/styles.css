@@ -211,7 +211,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--main-text-colorCopy);
+  color: var(--title-text-cl);
 }
 
 .portfolio-name {
@@ -219,7 +219,7 @@ body {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: var(--title-text-cl);
+  color: var(--main-text-cl);
 }
 
 .button-portfolio {
